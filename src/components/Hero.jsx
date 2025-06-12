@@ -13,7 +13,6 @@ export default function Hero() {
         <span className="text-red-400 font-medium"> personalized training plans</span>,
         <span className="text-red-400 font-medium"> step-by-step exercise guides</span>, and
         <span className="text-red-400 font-medium"> real-time progress tracking</span>.
-
         Unlock your full potential, stay focused, and build the body you’ve always wanted.
         Because progress isn’t given — <span className="text-red-400 font-medium">it’s earned.</span>
       </p>
