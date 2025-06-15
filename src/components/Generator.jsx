@@ -31,6 +31,7 @@ export default function Generator() {
       </div>
       <Header index={'02'} title={'Pick Your Muscles'} description={'Select The Muscles judged'} />
       <div className="">
+
       </div>
 
       <Header index={'03'} title={'Pick Your Objective'} description={'Select Your Ultimate Objective'} />
