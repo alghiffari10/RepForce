@@ -1,5 +1,5 @@
 import React from "react";
-
+import Button from "./Button";
 
 /**
  * @components
@@ -19,10 +19,9 @@ export default function Hero() {
         <span className="text-red-400 font-medium"> personalized training plans.</span> Unlock your full potential, stay focused, and build the body you’ve always wanted.
         Because progress isn’t given it’s <span className="text-red-400 font-medium">earned.</span>
       </p>
-      <button className="group relative overflow-hidden px-8 py-4 rounded-md border-2 border-red-400 text-white transition-all duration-300">
-        <span className="absolute inset-0 bg-red-400 translate-y-[100%] group-hover:translate-y-0 transition-transform duration-300 ease-in-out z-0" />
-        <p className="relative z-10 group-hover:text-white transition-colors duration-300">Accept & Begin</p>
-      </button>
+      <Button func={() => {
+        window.location.href = "#generate"
+      }} name={"Accept & Begin"}></Button>
     </div>
   )
 
